@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+}
+.box{
+  margin: 30px;
+  height : 200px;
+  width : 200px;
+  border : 1px solid black;
+  display: inline-block;
+}
+
+.box-red{
+  background-color: red;
+}
+
+.box-yellow{
+  background-color: yellow;
+}
+
+.box-blue{
+  background-color: blue;
+}
+
+.box-green{
+  background-color: green;
+}
+
+.container{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.pressed{
+  background-color: grey;
+  border: 3px solid white;
+}
+
+.game-failure{
+  background-color: red;
+}
